@@ -142,7 +142,7 @@ font-family: OpenSans-Regular;
   .nav-collapse .nav > li > a:focus,
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
-    background-color: #559ddb;
+    background-color: #33819B;
   }
  #busimenu{margin-bottom: 0px;} 
 /* ---------Busiprof All Css------- */
@@ -241,6 +241,7 @@ font-family: OpenSans-Regular;
     float: left;
     margin: 22px 0px 0px;
     padding-bottom: 10px;
+    height: 240px;
     
 }
 .services_cols_mn span {
@@ -255,7 +256,7 @@ font-family: OpenSans-Regular;
 }
 .services_cols_mn h2 {
     color: #737F85;
-    font-family: 'montserratregular';
+    //font-family: 'montserratregular';
     font-size: 18px;
     font-weight: normal;
     letter-spacing: 0;
@@ -269,7 +270,7 @@ font-family: OpenSans-Regular;
     margin: 15px 22px 22px;
     text-align: center;
 }
-.services_cols_mn_icon{height:45px;width:34px;}
+.services_cols_mn_icon{height:45px;}
 .services_more_btn {
     margin: 0 auto;
     width: 170px;
@@ -277,7 +278,8 @@ font-family: OpenSans-Regular;
 .services_more_btn a {
 	color: #FFFFFF;
 	float: left;
-	font-family: 'montserratregular';
+	//font-family: 'montserratregular';
+        font-weight: bold;
 	font-size: 12px;
 	line-height: 30px;
 	margin-bottom: 20px;

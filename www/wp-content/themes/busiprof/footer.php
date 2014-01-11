@@ -61,9 +61,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="span8">
-					<?php _e(' Powered by ', 'busi_prof'); ?>
-					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'busi_prof' ) ); ?>"><?php _e('WordPress', 'busi_prof'); ?></a>
-					<?php echo $current_options['busiprof_copy_rights_text'] ; ?><?php if($current_options['footer_designedby'] != '' ) { ?>&nbsp;<a target="_blank" rel="nofollow" href="<?php echo $current_options['footer_url'] ?>"><?php echo $current_options['footer_designedby'] ?></a><?php } ?>
+                                            &COPY; <?php echo date("Y") ?> <a href="<?=bloginfo("url")?>">ARMESH SRL</a> Toate drepturile sunt rezervate </br>
+                                            Pagină creată de <a href="mailto:ivanmajeru@gmail.com">Ivan Majeru</a> 
+                                            
+                                            
+                                            
 					</div>
 				</div>
 		   </div>
