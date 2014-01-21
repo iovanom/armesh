@@ -155,9 +155,9 @@ register_sidebar( array(
 		'name' => __( 'Second Footer Widget Area', 'busi_prof' ),
 		'id' => 'second-footer-widget-area',
 		'description' => __( 'The second footer widget area', 'busi_prof' ),
-		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
-		'after_widget' => '</div>',
-		'before_title' => '<h2 class="widget-title">',
+		'before_widget' => '<div id="%1$s" class="sidebar_widget">',
+		'after_widget' => '</div><div class=""></div>',
+		'before_title' => '<h2>',
 		'after_title' => '</h2>',
 	) );
 	
