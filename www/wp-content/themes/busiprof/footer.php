@@ -22,7 +22,7 @@
                 </div>
             <?php endif; ?>                                
             <?php if ( is_active_sidebar( 'second-footer-widget-area' ) ) : ?> 
-                <div class="span6 foot-area">
+                <div class="span6 foot-area" id="widget-menu">
                     <?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
                 </div>
             <?php endif; ?>      

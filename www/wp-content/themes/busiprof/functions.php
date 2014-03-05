@@ -16,7 +16,7 @@ define('WEBRITI_THEME_FUNCTIONS_PATH',WEBRITI_TEMPLATE_DIR.'/functions');
 	//Files for custom - defaults menus
 	require( WEBRITI_THEME_FUNCTIONS_PATH. '/menu/busiprof_nav_walker.php' );
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/menu/default_menu_walker.php' );	
-	
+	require ( WEBRITI_TEMPLATE_DIR . '/pricelist/price_table.php' );
 	require( WEBRITI_THEME_FUNCTIONS_PATH .'/resize_image/resize_image.php' );	
 	require_once( WEBRITI_THEME_FUNCTIONS_PATH .'/commentbox/comment-function.php');
 //content width
@@ -181,5 +181,7 @@ register_sidebar( array(
 		'after_title' => '</h2>',
 	) );
 }	                     
+
+
 
 ?>

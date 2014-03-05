@@ -1724,6 +1724,50 @@ body{
 }
 
 .foot-area {
-    border: 1px solid #fff;
+    
     padding: 15px;
+}
+
+.foot-area a{
+    color: white;
+}
+
+.foot-area h4, .foot-area p {
+    color: white;
+/*    padding: 0;
+    margin: 0;
+    display: inline;
+    margin-bottom: 25px;*/
+}
+
+.foot-area h4 {
+     border-bottom: 1px dotted #B4BFC5;
+}
+
+#widget-menu li{
+    padding: 0;
+    margin: 0;
+}
+
+#widget-menu ul li a {
+    
+    border-bottom: 1px dotted #B4BFC5;
+    float: left;
+    line-height: 27px;
+    list-style: none outside none;
+    padding-left: 18px;
+    width: 100%;
+}
+
+#widget-menu li li {
+    padding-left: 25px;
+}
+
+/**
+* Price Table
+*/
+
+.price-table td, .price-table th{
+    border-bottom: 1px solid #EDEDED;
+    text-align: center;
 }
